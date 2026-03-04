@@ -1,0 +1,171 @@
+/* SpicifypraizeTheme - Warm Coffee */
+
+:root {
+  --coffee-bg: #2C1B12;
+  --coffee-bg-2: #3B2F2F;
+  --coffee-text: #4B3621;
+  --coffee-muted: #6F4E37;
+  --coffee-accent: #C0A080;
+  --coffee-hover: #D6B89C;
+  --coffee-border: #E6D3B3;
+  --coffee-radius: 10px;
+  --coffee-radius-sm: 8px;
+  --coffee-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Sidebar */
+.Root__nav-bar,
+.main-navBar-navBar,
+.main-navBar-navBarLink {
+  background: var(--coffee-bg-2) !important;
+  color: var(--coffee-text) !important;
+}
+
+.main-navBar-navBarLink {
+  border-radius: var(--coffee-radius-sm) !important;
+}
+
+.main-navBar-navBarLink:hover {
+  background: rgba(214, 184, 156, 0.12) !important;
+  color: var(--coffee-hover) !important;
+}
+
+.main-navBar-navBarLinkActive,
+.main-navBar-navBarLinkActive .main-navBar-navBarLinkText {
+  color: var(--coffee-accent) !important;
+}
+
+/* Top Bar */
+.Root__top-container,
+.main-topBar-container,
+.main-topBar-topBar {
+  background: var(--coffee-bg) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Main Content */
+.Root__main-view,
+.main-view-container,
+.main-home-home,
+.main-browse-browse {
+  background: var(--coffee-bg) !important;
+  color: var(--coffee-text) !important;
+}
+
+/* Cards (album/playlist panels) */
+.main-card-card,
+.main-card-draggable,
+.main-entityCard-card,
+.main-gridContainer-gridContainer .main-card-card {
+  background: var(--coffee-bg-2) !important;
+  border-radius: var(--coffee-radius) !important;
+  border: 1px solid var(--coffee-border) !important;
+  box-shadow: var(--coffee-shadow) !important;
+}
+
+/* Buttons (play, follow, primary actions) */
+.main-playButton-Button,
+.main-playButton-PlayButton,
+.main-addButton-Button,
+.main-topBar-button,
+.x-button,
+.Button-sc-qlcn5g-0 {
+  background: var(--coffee-accent) !important;
+  color: var(--coffee-bg) !important;
+  border: none !important;
+  border-radius: var(--coffee-radius-sm) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.main-playButton-Button:hover,
+.main-addButton-Button:hover,
+.x-button:hover,
+.Button-sc-qlcn5g-0:hover {
+  background: var(--coffee-hover) !important;
+  color: var(--coffee-bg) !important;
+}
+
+/* Progress Bar + Volume Bar */
+.progress-bar,
+.playback-bar__progress-bar,
+.volume-bar__slider {
+  background: var(--coffee-bg-2) !important;
+  border-radius: 999px !important;
+}
+
+.progress-bar__fg,
+.playback-bar__progress-bar .progress-bar__fg,
+.volume-bar__slider .progress-bar__fg {
+  background: var(--coffee-accent) !important;
+  border-radius: 999px !important;
+}
+
+/* Tracklist Row Hover + Selected */
+.main-trackList-trackListRow:hover {
+  border-radius: var(--coffee-radius-sm) !important;
+  background: rgba(214, 184, 156, 0.2) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-selected,
+.main-trackList-trackListRow[aria-selected="true"] {
+  border-radius: var(--coffee-radius-sm) !important;
+  background: rgba(192, 160, 128, 0.3) !important;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--coffee-bg) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--coffee-border) !important;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--coffee-hover) !important;
+}
+
+/* Now Playing Bar */
+.Root__now-playing-bar,
+.now-playing-bar-container,
+.main-nowPlayingBar-container {
+  background: var(--coffee-bg-2) !important;
+  color: var(--coffee-text) !important;
+  border-top: 1px solid var(--coffee-border) !important;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Links + Active State */
+a,
+.main-entityHeader-title a,
+.main-entityHeader-subtitle a {
+  color: var(--coffee-accent) !important;
+}
+
+a:hover {
+  color: var(--coffee-hover) !important;
+}
+
+.main-navBar-navBarLinkActive,
+.main-navBar-navBarLinkActive .main-navBar-navBarLinkText,
+.main-trackList-trackListRow.main-trackList-selected .main-trackList-rowSectionIndex {
+  color: var(--coffee-accent) !important;
+}
+
+/* Text Defaults */
+.main-type-body,
+.main-type-mesto,
+.main-type-subtitle {
+  color: var(--coffee-text) !important;
+}
+
+.main-type-mesto,
+.main-type-subtitle {
+  color: var(--coffee-muted) !important;
+}
